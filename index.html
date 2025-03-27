@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" hrefz="styles.css"> -->
+    <title>AccioJob</title>
+    <style>
+        .heading{
+            color:red;
+
+        }
+        .container{
+            background-color: lightblue;
+            padding: 20px;
+            margin: 20px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is the h1 tag that is used for headings </h1>
+    <h2 style="font-size: 50px;" class="heading" id="headingid">this is h2, a little bit smaller than h1</h2>
+    <h3>this is h3, a little bit smaller than h2</h3>
+    <h4>this is h4, a little bit smaller than h3</h4>
+    <h5>this is h5, a little bit smaller than h4</h5>
+    <h6>this is h6, a little bit smaller than h5</h6>
+    <p>this is a paragraph tag used for writing paragraphs</p>
+
+    <form onSubmit=`{handleSubmit}` method="POST">
+        <input type="email" placeholder="Enter your email" name="email" required>
+
+        <input type="password" placeholder="Enter your password" name="password" required>
+        <input type="submit" value="Submit">
+        
+    </form>
+
+    <!-- anchor tag -->
+     <a href="https://youtube.com">Youtube</a>
+
+     <!-- image -->
+    <img src="./1.webp" alt="random image" width="200px" height="280px">
+
+    <div class="container">
+        <h1>hello</h1>
+        <p>lorem ipsum</p>
+    </div>
+
+    <div class="container">
+        <h1>Hello again</h1>
+        <p>lorem ipsum</p>
+    </div>
+    
+<!-- ./ -> inside the current folder -->
+ <!-- ../ -> outside the current folder -->
+    <script>
+        var heading = document.querySelector('.heading');
+        heading.addEventListener('click', function(){
+            heading.style.color = 'green';
+        });
+    </script>
+</body>
+</html>

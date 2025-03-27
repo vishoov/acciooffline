@@ -1,0 +1,12 @@
+Git and GitHub
+
+
+Version control system
+
+Git->
+    - project folder
+    - implement code, changes, features
+    - control and track changes 
+
+
+    -git init -> initialise an empty repository in this folder 
